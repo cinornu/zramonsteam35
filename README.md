@@ -12,6 +12,10 @@
 ##### This script installs the rc.local-service and copies rc.local, which contains the zram setup script, to /etc.<br/>
 이 스크립트는 rc.local-service를 설치하고, zram 설정 스크립트가 내장된 rc.local을 /etc에 복사합니다.<br/>
 <br/>
+Algorithm : zstd <br/>
+Size : 8GB <br/>
+Swapiness : 100 <br/>
+<br/>
 ### How to Use / 사용법 : 
 
 ![zram1](https://github.com/cinornu/zramonsteam35/assets/55832850/1c72d5ae-8e04-426f-ae76-27541a9c99d2)
