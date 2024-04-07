@@ -38,3 +38,8 @@ in the Konsole.<br/>
 
 ##### Never modify these files directly on Windows. The script will malfunction due to the different CR/LF format! <br/>
 절대로 윈도우 상에서 해당 파일을 직접 수정하지 마세요. CR/LF 형식이 다르기때문에 스크립트가 오작동합니다! <br/>
+
+<br/>
+
+##### DO NOT USE CryoUtilities!!! <br/>
+절대로 크라이오 유틸리티와 혼용하지 마세요!!!
