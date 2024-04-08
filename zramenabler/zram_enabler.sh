@@ -22,7 +22,7 @@ do
 			sudo systemctl enable rc-local.service
 			echo 3. disable swap and enable zram...
 			sudo sh /etc/rc.local
-			echo - zram is successfully enabled!
+			echo - zram is successfully enabled!;;
 		uninstall)
 			echo 1. disable rc.local service...
 			sudo systemctl disable rc-local.service
@@ -30,11 +30,13 @@ do
 			sudo rm /etc/systemd/system/rc-local.service
 			sudo rm /etc/rc.local
 			echo - zram is successfully disabled!
-			echo - PLEASE REBOOT YOUR DECK!
+			echo - PLEASE REBOOT YOUR DECK!;;
 		quit)
 			echo "closing..."
+			exit 1;;
 		*)
 			echo "Error!"
+			exit 1;;
 	esac
 	break
 done
