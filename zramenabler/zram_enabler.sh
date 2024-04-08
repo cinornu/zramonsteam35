@@ -1,10 +1,10 @@
 #!bin/bash
-# Scripted by Edgestorm
+# Scripted by cinornu
 # git : https://github.com/cinornu/zramonsteam35
 clear
 PS3="Select : "
 echo "SteamOS 3.5.x zram Enabler v1.1
-Scripted by Edgestorm
+Scripted by cinornu
 
 "
 
