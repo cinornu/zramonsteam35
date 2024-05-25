@@ -6,8 +6,8 @@
 ##### This script is written for users who are unable to use version 3.6 due to a bug, but still want to use zram.<br/>
 이 스크립트는 버그로 인해 3.6 버전을 이용할 수는 없지만, zram을 사용하고 싶어하는 유저들을 위해 작성되었습니다.<br/>
 <br/>
-##### Works fine on SteamOS 3.5.7<br/>
-스팀OS 3.5.7에서 정상 작동하는 것을 확인했습니다.<br/>
+##### Works fine on SteamOS 3.5.7, 3.5.19 <br/>
+스팀OS 3.5.7, 3.5.19 에서 정상 작동하는 것을 확인했습니다.<br/>
 <br/>
 ##### This script installs the rc.local-service and copies rc.local, which contains the zram setup script, to /etc.<br/>
 이 스크립트는 rc.local-service를 설치하고, zram 설정 스크립트가 내장된 rc.local을 /etc에 복사합니다.<br/>
